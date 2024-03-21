@@ -1,11 +1,11 @@
 ### This repo is a study of the application of stochastic gradient descent to a small neural network.
 
-Let's consider a classification problem with $m$ classes and $m$ parameters, which we want to process using a basic neural network consisting of a linear layer to which we apply softmax. The figure below shows the corresponding graphcite{https://towardsdatascience.com/deep-dive-into-softmax-regression-62deea103cb8}
+Let's consider a classification problem with $m$ classes and $m$ parameters, which we want to process using a basic neural network consisting of a linear layer to which we apply softmax. The figure below shows the corresponding graph https://towardsdatascience.com/deep-dive-into-softmax-regression-62deea103cb8
 
 
  ![network](/img/SLSFM.png)
  
-     Graphe du réseau de neurones[1].
+Graphe du réseau de neurones[1].
 
 
 We begin by defining the cross entropy loss function:
