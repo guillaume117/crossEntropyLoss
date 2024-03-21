@@ -10,7 +10,7 @@ Graphe du réseau de neurones[1].
 
 We begin by defining the cross entropy loss function: 
 
-$$ \mathcal{L}=\mathcal{L}_{\operatorname{CrossEntropy}} -\sum_{t=1}^k y_t \log \hat{y}_t $$
+$$ \mathcal{L}=\mathcal{L}_{CrossEntropy} -\sum_{t=1}^k y_t \log \hat{y}_t $$
 
 avec (softmax): 
 $$\hat{y}_t = \frac{e^{z_t}}{\sum_{p=1}^k e^{z_p}}$$
