@@ -11,11 +11,11 @@ Let's consider a classification problem with $m$ classes and $m$ parameters, whi
 
 
 We begin by defining the cross entropy loss function:
-' \mathcal{L}=\mathcal{L}_{\operatorname{CrossEntropy}} -\sum_{t=1}^k y_t \log \hat{y}_t '
+$ \mathcal{L}=\mathcal{L}_{\operatorname{CrossEntropy}} -\sum_{t=1}^k y_t \log \hat{y}_t $
 avec (softmax):
- '$\hat{y}_t = \frac{e^{z_t}}{\sum_{p=1}^k e^{z_p}}$'
+ $\hat{y}_t = \frac{e^{z_t}}{\sum_{p=1}^k e^{z_p}}$
 
-Using the chain rule, we obtain '$\forall (i,j) \in (\lbrace 1,...,k \rbrace )\times (\lbrace 1,...,m\rbrace) $' : 
+Using the chain rule, we obtain $\forall (i,j) \in (\lbrace 1,...,k \rbrace )\times (\lbrace 1,...,m\rbrace) $ : 
 
 
 $$ \frac{\partial \mathcal{L}}{\partial w_{ji}} = \frac{\partial \mathcal{L}}{\partial z_i} \frac{\partial z_i}{\partial w_{ji}} $$
