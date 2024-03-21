@@ -2,12 +2,10 @@
 
 Let's consider a classification problem with $m$ classes and $m$ parameters, which we want to process using a basic neural network consisting of a linear layer to which we apply softmax. The figure below shows the corresponding graphcite{https://towardsdatascience.com/deep-dive-into-softmax-regression-62deea103cb8}
 
-<center>
-    <figure>
-        <img src="./img/SLSFM.png" alt="Network" width = "500" height="300">
-        <figcaption>Graphe du réseau de neurones[1].</figcaption>
-    </figure>
-</center>
+
+ ![network](/img/SLSFM.png)
+ 
+     Graphe du réseau de neurones[1].
 
 
 We begin by defining the cross entropy loss function:
