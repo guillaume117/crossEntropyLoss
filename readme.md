@@ -11,7 +11,7 @@ Let's consider a classification problem with $m$ classes and $m$ parameters, whi
 
 
 We begin by defining the cross entropy loss function:
-'$ \mathcal{L}=\mathcal{L}_{\operatorname{CrossEntropy}} -\sum_{t=1}^k y_t \log \hat{y}_t $'
+' \mathcal{L}=\mathcal{L}_{\operatorname{CrossEntropy}} -\sum_{t=1}^k y_t \log \hat{y}_t '
 avec (softmax):
  '$\hat{y}_t = \frac{e^{z_t}}{\sum_{p=1}^k e^{z_p}}$'
 
